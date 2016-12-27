@@ -48,5 +48,8 @@ public class GitTest2 {
 	{
 		System.out.println("Not found");
 	}
+	
+	driver.quit();
 	}
+
 }

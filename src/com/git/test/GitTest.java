@@ -40,7 +40,9 @@ public class GitTest {
 		//clicking on DropDown button
 		driver.findElement(By.xpath("//a[img[@width='20']]")).click();
 		//clicking on Sign Out button
-		driver.findElement(By.xpath("//button[@type='submit']")).click();	
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		
+		driver.quit();
 	}
 }
 

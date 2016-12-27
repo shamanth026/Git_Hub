@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="GITHubTest(failed)">
+    <classes>
+      <class name="com.git.test2.GitTest2">
+        <methods>
+          <include name="loginWithInValidData"/>
+        </methods>
+      </class> <!-- com.git.test2.GitTest2 -->
+    </classes>
+  </test> <!-- GITHubTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
